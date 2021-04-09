@@ -1,20 +1,9 @@
-![Legion](https://forum.xda-developers.com/proxy.php?image=https%3A%2F%2Fraw.githubusercontent.com%2FlegionRom%2Fxda_templete%2Fmaster%2Flogos%2FPicsArt_05-31-07.22.49.jpg&hash=b402290007e6c056ee0fec410a2bb84e "Legion")
-
-LegionOS 3.7 (A11/R) for Redmi K30 5G (picasso)
-======================================
-
-# How to build
-
-Download Legion's source and picasso repos. You can have a look at my manifest:
-
-https://github.com/masemoel/local_manifests/blob/master/picasso_r.xml
-
 Then go to the source folder and run:
 
 ```bash
 . build/envsetup.sh
-lunch legion_picasso-userdebug
-make legion
+lunch cherish_picasso-userdebug
+brunch picasso
 ```
 
 # Device specifications
