@@ -161,3 +161,13 @@ persist.sys.wfd.virtual=0
 
 # Zygote
 persist.device_config.runtime_native.usap_pool_enabled=true
+
+ro.vendor.radio.features_common=3
+ro.config.gnss.support=GPS,NavIC,BeiDou,GLONASS,Galileo
+
+# IZat OptInApp overlay
+persist.vendor.overlay.izat.optin=rro
+
+# Backup NTP Server
+persist.backup.ntpServer="0.pool.ntp.org"
+persist.timed.enable=true
