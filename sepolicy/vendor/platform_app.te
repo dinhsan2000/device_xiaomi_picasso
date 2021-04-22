@@ -1,0 +1,4 @@
+allow platform_app rild:binder { call };
+allow platform_app init:binder { call };
+
+allow platform_app nfc_service:service_manager { find };
